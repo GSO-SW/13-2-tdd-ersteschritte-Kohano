@@ -1,7 +1,8 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;   // Notwendig, um Exceptions testen zu können.
-using _13._3_tdd_Geometrie; // <zuTestendesProjekt> angeben.
-                            // Zusätzlich Verweis hinzufügen (Eigenschaft des Testsprojekts).
+using _13._3_tdd_Geometrie;
+using System.Runtime.CompilerServices; // <zuTestendesProjekt> angeben.
+                                       // Zusätzlich Verweis hinzufügen (Eigenschaft des Testsprojekts).
 
 namespace _13._3_tdd_GeometrieTests // Namenskonvention: <zuTestendesProjekt>Tests
 {
@@ -13,6 +14,8 @@ namespace _13._3_tdd_GeometrieTests // Namenskonvention: <zuTestendesProjekt>Tes
         public void Rechteck_kannOhneParameterErstelltWerden()
         {
             // Arrange
+            
+            
 
             // Act
             Rechteck r = new Rechteck();
